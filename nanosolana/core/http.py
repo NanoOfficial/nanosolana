@@ -23,7 +23,7 @@ class HTTPClient:
         self.headers = {
             "Content-Type": "application/json",
             "User-Agent": (
-                "Solathon (https://github.com/GitBolt/solathon "
+                "NanoSolana (https://github.com/NanoOfficial/nanosolana "
                 f"{__version__}) Python{version[0]} {version[1]}"
             ),
         }
@@ -65,7 +65,7 @@ class AsyncHTTPClient:
         self.headers = {
             "Content-Type": "application/json",
             "User-Agent": (
-                "Solathon (https://github.com/GitBolt/solathon "
+                "NanoSolana (https://github.com/NanoOfficial/nanosolana "
                 f"{__version__}) Python{version[0]} {version[1]}"
             ),
         }
