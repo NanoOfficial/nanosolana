@@ -1,6 +1,6 @@
 '''
 @author: @krishpranav
-@filename: types.py
+@filename: publickey.py
 @COPYRIGHT: MIT-License 2023 Krisna Pranav, NanoBlocks 
 '''
 
