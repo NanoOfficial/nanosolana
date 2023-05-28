@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "nanosolana"
+version = "0.1.2"
+description = "Easy to use Solana SDK for Python"
+license = "MIT"
+authors = ["NanoOfficial"]
+readme = "README.md"
+repository = "https://github.com/NanoOfficial/nanosolana"
+keywords = ["solana", "web3", "sdk", "blockchain"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+httpx = "^0.22.0"
+PyNaCl = "^1.5.0"
+base58 = "^2.1.1"
+construct = "^2.10.67"
+typing-extensions = {version = "^4.1.1", python = "3.10"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
