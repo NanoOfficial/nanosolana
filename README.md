@@ -1,6 +1,8 @@
 # nanosolana
 Solana Python SDK
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 # About:
 - Easy to use solana python SDK.
 
