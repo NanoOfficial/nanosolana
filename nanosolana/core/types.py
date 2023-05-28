@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+'''
+@author: @krishpranav
+@filename: types.py
+@COPYRIGHT: MIT-License 2023 Krisna Pranav, NanoBlocks 
+'''
+
 
 from typing import TypedDict, Literal, Any
 
